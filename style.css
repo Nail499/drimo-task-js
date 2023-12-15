@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 32px;
+}
+
+nav {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+}
+nav .nav-in {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav-in .list ul {
+  display: flex;
+  list-style: none;
+  gap: 38px;
+  font-size: 14px;
+}
+nav .nav-in .list ul li:hover {
+  color: #7DB9E8;
+  cursor: pointer;
+  transition: 0.4s;
+}
+nav .nav-in .list ul li span {
+  color: #7DB9E8;
+}
+
+.s1 {
+  width: 100%;
+  background-image: url(https://preview.colorlib.com/theme/drimo/drimo/img/banner/server-banner.jpg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.s1 .s1-in {
+  width: 100%;
+  margin: auto;
+  padding: 130px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.s1 .s1-in .box {
+  width: 495px;
+  background-color: #fc6428;
+  color: white;
+  text-align: center;
+  padding: 17px 0px;
+  position: relative;
+  font-size: 36px;
+}
+.s1 .s1-in .box .box-in {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 22px 14px 0 14px;
+  border-color: #fc6428 transparent transparent transparent;
+  position: absolute;
+  left: 230px;
+  bottom: -20px;
+}
+.s1 .main {
+  width: 100%;
+  margin: auto;
+  padding: 40px 0;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
